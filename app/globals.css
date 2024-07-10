@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-gray-950
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+p {
+    @apply text-sm text-slate-500
+}
+
+.container {
+    @apply bg-gray-100
+}
+
+.date_class {
+    @apply rounded-full p-2 mb-6 w-full
+}
+
+.button_class {
+    @apply rounded-full p-2 active:bg-opacity-60 font-bold
+}
