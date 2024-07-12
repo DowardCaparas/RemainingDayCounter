@@ -68,7 +68,7 @@ const Hero = () => {
       <div className="container max-w-md rounded-xl flex flex-col p-5 justify-center gap-2 ">
         <div className="flex items-center gap-4">
           {/* Days value */}
-          <div>
+          <>
             <p>Days:</p>
             <input
               type="text"
@@ -77,8 +77,8 @@ const Hero = () => {
               className="bg-slate-200 rounded-full p-2 w-1/2 text-center"
               readOnly
             />
-          </div>
-          <div>
+          </>
+          <>
             <p>Subs:</p>
 
             {/* Subscription */}
@@ -95,7 +95,7 @@ const Hero = () => {
               <option value="120">4 months</option>
               <option value="150">5 months</option>
             </select>
-          </div>
+          </>
         </div>
 
        <div className="mt-5">
